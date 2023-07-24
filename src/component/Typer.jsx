@@ -385,7 +385,7 @@ const Typer = ({ id, roomId, owner }) => {
             </button>
           )}
           {otherPlayer?.filter((s) => s.id === id)[0]?.owner &&
-            !isTimerStart && (
+            signal === "red" && (
               <button
                 className="border-[1px] px-2 py-1 border-stone-300"
                 onClick={() => {
