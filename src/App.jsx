@@ -15,7 +15,7 @@ function App() {
     return <Typer id={id} roomId={roomId} owner={owner} />;
   }
   return (
-    <main className="h-screen w-full bg-cover bg-no-repeat bg-center bg-[url('src/assets/lower.jpg')] grid items-center justify-center ">
+    <main className="h-screen w-full bg-cover bg-no-repeat bg-center bg-[url('/src/assets/lower.jpg')] grid items-center justify-center ">
       {!hasAccess && (
         <form
           className="flex flex-col gap-4 "
