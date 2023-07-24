@@ -8,7 +8,7 @@ import carTrack from "../assets/car-track4.jpg";
 const Typer = ({ id, roomId, owner }) => {
   const inputId = useId();
 
-  const [position, setPosition] = useState("");
+  const [, setPosition] = useState("");
   const [isTimerStart, setIsTimerStart] = useState(false);
   const [signal, setSignal] = useState("red");
   const [otherPlayer, setOtherPlayer] = useState([]);
