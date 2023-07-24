@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.scrollable::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.scrollable {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+.upper-red:after {
+  content: "* User Id Already Present";
+}
+.red::after {
+  content: "* No Room with that Id";
+}
+.upper-red:after,
+.red::after {
+  color: red;
+  font-size: small;
+  font-weight: 300;
+}
+.user_input {
+  @apply border-b-[1px] px-2 py-1 rounded-t outline-none border-stone-600 bg-white text-sm  text-stone-700 placeholder-stone-700;
+}
