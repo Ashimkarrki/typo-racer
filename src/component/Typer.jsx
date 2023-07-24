@@ -358,7 +358,7 @@ const Typer = ({ id, roomId, owner }) => {
         </label>
         <input
           id={inputId}
-          className="flex mt-4 border-2 mx-auto opacity-0 w-0 h-0"
+          className="flex mt-4 border-2 mx-auto opacity-0 w-0 h-0 select-none"
           type="text"
           value={data}
           onChange={(e) => {
