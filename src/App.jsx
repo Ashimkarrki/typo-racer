@@ -32,7 +32,6 @@ function App() {
                 )
               ).then((snap) => {
                 if (snap.exists()) {
-                  console.log(snap.val());
                   if (snap.val()[id]) {
                     setSameName(true);
                   } else {

@@ -227,14 +227,12 @@ const Typer = ({ id, roomId, owner }) => {
   // for setting original
   useEffect(() => {
     const getData = async (id) => {
-      console.log(id);
       const colRef = query(
         collection(fdb, "Paragraphs"),
         where("id", "==", id)
       );
       const docSnap = await getDocs(colRef);
       docSnap.forEach((doc) => {
-        console.log(doc.data().item);
         setOriginal(doc.data().item);
       });
     };
