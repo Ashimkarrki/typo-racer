@@ -16,4 +16,3 @@ Typo-Racer is a fast-paced, web-based multiplayer typing race game built with Re
   
 ![Screenshot from 2025-05-03 08-15-37](https://github.com/user-attachments/assets/23c5cb01-69f2-4b5a-8058-52c76ad68871)
 
-  _Image goes here_
